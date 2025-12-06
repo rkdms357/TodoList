@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'SheGilwonok';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_ten@1.0/Her-Gilwonok.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: SheGilwonok;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 2px solid grey;
+    padding: 10px 15px 20px 15px;
+}
+
+#todo {
+    font-family: 'SheGilwonok';
+    background: none;
+    border: none;
+    font-size: 2rem;
+    outline: none;
+}
+
+#btn {
+    font-family: 'SheGilwonok';
+    background-color: antiquewhite;
+    border-radius: 50px;
+    border: none;
+    font-size: 2.5rem;
+}
+
+#btn:hover {
+    background-color: lightpink;
+}
+
+p {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.deleting {
+    text-decoration-line: line-through;
+}
