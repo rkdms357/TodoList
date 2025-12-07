@@ -9,6 +9,7 @@ target/
 .idea/compiler.xml
 .idea/vcs.xml
 .idea/encodings.xml
+.idea/misc.xml
 .idea/libraries/
 *.iws
 *.iml
@@ -38,3 +39,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+src/main/resources/oracleDB.properties
